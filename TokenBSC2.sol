@@ -11,8 +11,8 @@ contract MyToken {
     mapping(address => mapping(address => uint256)) public allowance;
 
     constructor() {
-        name = "MyToken";
-        symbol = "MTK";
+        name = "TokenBSC2";
+        symbol = "TBSC2";
         decimals = 2;
         totalSupply = 1000000;
         balanceOf[msg.sender] = totalSupply;
